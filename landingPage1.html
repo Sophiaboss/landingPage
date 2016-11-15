@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Landing Page</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="landingPage1.css" rel="stylesheet">
+  
+
+  </head>
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top">
+
+      <div class="container">
+
+        <div class="navbar-header">
+
+          <a href="" class="navbar-brand">My App</a>
+
+          <button type="button" class=
+          "navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+            <span class="sr-only">Toggle navigation</span>
+
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+          </button>
+
+      </div>
+
+      <div class="collapse navbar-collapse">
+
+        <ul class="nav navbar-nav">
+
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Download The App</a><li>
+
+        </ul>
+
+        <form class=" nav navbar-nav navbar-form navbar-right" role="email">
+      
+        <div class="form-group">
+        
+        <input type="email" class="form-control" placeholder="email">
+
+        </div>
+
+        <div class="form-group">
+
+        <input type="password" class="form-control" placeholder="password">
+        
+        </div>
+        
+        <button type="submit" class="btn btn-success">Submit</button>
+        
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container contentContainer" id="topContainer">
+
+
+    <div class="container text-center" id="div1Text">
+    
+      <h1>My Awesome App</h1>
+
+      <br />
+
+      <h3>This is Why You Should Download This Fantastic App</h3>
+
+      <br />
+
+      <p>This is more information on how fantastic this mysterious app is, and why you should download it</p>
+
+      <br />
+
+      <p id="mailingList">Interested? join the mailing list</p>
+
+      <div class="input-group col-lg-4 col-lg-offset-4">
+
+        <span class="input-group-addon">@</span>
+
+        <input type="email" class="form-control" placeholder="email" id="inputMailingList">
+
+      </div>
+
+      </div>
+
+  <video autoplay loop muted volume id="videobcg">
+            <source src="video/smoke7.webm" type="video/webm">
+                <source src="video/smoke7.mp4" type="video/mp4">
+                <source src="video/smoke7.ogv" type="video/ogg">
+                  
+  </video>
+
+
+
+ 
+
+  <div class="container contentContainer" id="container2">
+
+    <div class="row center">
+
+      <h1>Why My App Is Awesome</h1>
+
+      <h3>Summery Of App's Awesomeness</h3>
+
+    </div>
+
+      <div class="row marginBottom">
+
+        <div class="col-md-4 marginTop">
+
+          <h2><span class="glyphicon glyphicon-music"></span>Header</h2>
+
+          <p> A brief description. A brief description.A brief description. A brief description. A brief description.A brief description.A brief description. A brief description.A brief description.</p>
+
+          <button type="submit" class="btn btn-success marginTop">Sign Up!</button>
+         
+        </div>
+
+      <div class="col-md-4 marginTop">
+
+          <h2><span class="glyphicon glyphicon-off"></span>Header</h2>
+
+          <p> A brief description. A brief description.A brief description. A brief description. A brief description.A brief description.A brief description. A brief description.A brief description.</p>
+
+          <button type="submit" class="btn btn-success marginTop">Sign Up!</button>
+         
+        
+      </div>
+      
+      <div class="col-md-4 marginTop marginBottom">
+
+          <h2><span class="glyphicon glyphicon-pencil"></span>Header</h2>
+
+          <p> A brief description. A brief description.A brief description. A brief description. A brief description.A brief description.A brief description. A brief description.A brief description.</p>
+
+          <button type="submit" class="btn btn-success marginTop">Sign Up!</button>
+         
+        
+      </div>
+
+
+      </div>
+
+    </div>
+
+ 
+
+<div class="container" id="container3">
+
+  <div class="row">
+
+    <div class="center" id="container3Text">
+
+    <h1> Download The App! </h1>
+
+    <h4>Really, why should I download this app?</h4>
+
+    <img src="images/appleapp.png" id="appImage" />
+
+
+
+  </div>
+
+</div>
+
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+
+
+ 
+
+      // $(".contentContainer").css("min-height",$(window).height());
+    </script>
+
+    <script type="text/javascript">
+
+
+      $("#videobcg").css("min-height",$(window).height());
+
+      $("#container2").css("height",$(window).height());
+
+      $("#container3").css("height",$(window).height());
+
+      
+
+
+    </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
